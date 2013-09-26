@@ -3,15 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>ROME Propono - Home</title>
+    <title>ROME Propono - Dependency Information</title>
     <style type="text/css" media="all">
       @import url("./css/maven-base.css");
       @import url("./css/maven-theme.css");
       @import url("./css/site.css");
     </style>
     <link rel="stylesheet" href="./css/print.css" type="text/css" media="print" />
-      <meta name="author" content="mkurz" />
-    <meta name="Date-Creation-yyyymmdd" content="20110816" />
     <meta name="Date-Revision-yyyymmdd" content="20130927" />
     <meta http-equiv="Content-Language" content="en" />
         
@@ -44,8 +42,8 @@
                                 <h5>ROME Propono</h5>
                   <ul>
                   <li class="none">
-            <strong>Overview</strong>
-          </li>
+                          <a href="index.html" title="Overview">Overview</a>
+            </li>
           </ul>
                        <h5>Project Documentation</h5>
                   <ul>
@@ -53,14 +51,14 @@
                           <a href="project-info.html" title="Project Information">Project Information</a>
                     <ul>
                       <li class="none">
-            <strong>About</strong>
-          </li>
+                          <a href="index.html" title="About">About</a>
+            </li>
                       <li class="none">
                           <a href="team-list.html" title="Project Team">Project Team</a>
             </li>
                       <li class="none">
-                          <a href="dependency-info.html" title="Dependency Information">Dependency Information</a>
-            </li>
+            <strong>Dependency Information</strong>
+          </li>
                       <li class="none">
                           <a href="plugins.html" title="Project Plugins">Project Plugins</a>
             </li>
@@ -107,19 +105,43 @@
     <div id="bodyColumn">
       <div id="contentBox">
         <div class="section">
-<h2>ROME Propono<a name="ROME_Propono"></a></h2>
-<p>The ROME Propono subproject is a Java class library that supports publishing protocols, specifically the Atom Publishing Protocol and the legacy MetaWeblog API. Propono includes an Atom client library, an Atom server framework and a Blog client that supports both Atom protocol and the MetaWeblog API.</p></div>
+<h2>Dependency Information<a name="Dependency_Information"></a></h2><a name="Dependency_Information"></a>
 <div class="section">
-<h2>Documentation<a name="Documentation"></a></h2>
-<ul>
-<li>See the <a href="./apidocs/overview-summary.html">Propono API docs</a> for an explanation of Propono usage, diagrams and code examples.</li></ul></div>
+<h3>Apache Maven<a name="Apache_Maven"></a></h3><a name="Apache_Maven"></a>
+<div class="source">
+<pre>&lt;dependency&gt;
+  &lt;groupId&gt;org.rometools&lt;/groupId&gt;
+  &lt;artifactId&gt;rome-propono&lt;/artifactId&gt;
+  &lt;version&gt;1.1-SNAPSHOT&lt;/version&gt;
+&lt;/dependency&gt;</pre></div></div>
 <div class="section">
-<h2>Releases<a name="Releases"></a></h2>
-<ul>
-<li><a href="./ROMEProponoVersion1.0.html">ROME Propono Version 1.0 (propono)</a> - Release 1.0 coming soon...</li>
-<li><a href="./ROMEProponoVersion0.6.html">ROME Propono Version 0.6 (propono)</a></li>
-<li><a href="./ROMEProponoVersion0.5.html">ROME Propono Version 0.5 (propono)</a></li>
-<li><a href="./ROMEProponoVersion0.4.html">ROME Propono Version 0.4 (propono)</a></li></ul></div>
+<h3>Apache Buildr<a name="Apache_Buildr"></a></h3><a name="Apache_Buildr"></a>
+<div class="source">
+<pre>'org.rometools:rome-propono:jar:1.1-SNAPSHOT'</pre></div></div>
+<div class="section">
+<h3>Apache Ant<a name="Apache_Ant"></a></h3><a name="Apache_Ant"></a>
+<div class="source">
+<pre>&lt;dependency org=&quot;org.rometools&quot; name=&quot;rome-propono&quot; rev=&quot;1.1-SNAPSHOT&quot;&gt;
+  &lt;artifact name=&quot;rome-propono&quot; type=&quot;jar&quot; /&gt;
+&lt;/dependency&gt;</pre></div></div>
+<div class="section">
+<h3>Groovy Grape<a name="Groovy_Grape"></a></h3><a name="Groovy_Grape"></a>
+<div class="source">
+<pre>@Grapes(
+@Grab(group='org.rometools', module='rome-propono', version='1.1-SNAPSHOT')
+)</pre></div></div>
+<div class="section">
+<h3>Grails<a name="Grails"></a></h3><a name="Grails"></a>
+<div class="source">
+<pre>compile 'org.rometools:rome-propono:1.1-SNAPSHOT'</pre></div></div>
+<div class="section">
+<h3>Leiningen<a name="Leiningen"></a></h3><a name="Leiningen"></a>
+<div class="source">
+<pre>[org.rometools/rome-propono &quot;1.1-SNAPSHOT&quot;]</pre></div></div>
+<div class="section">
+<h3>SBT<a name="SBT"></a></h3><a name="SBT"></a>
+<div class="source">
+<pre>libraryDependencies += &quot;org.rometools&quot; %% &quot;rome-propono&quot; % &quot;1.1-SNAPSHOT&quot;</pre></div></div></div>
       </div>
     </div>
     <div class="clear">

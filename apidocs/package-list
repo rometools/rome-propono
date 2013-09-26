@@ -1,0 +1,9 @@
+org.rometools.propono.atom.client
+org.rometools.propono.atom.common
+org.rometools.propono.atom.common.rome
+org.rometools.propono.atom.server
+org.rometools.propono.atom.server.impl
+org.rometools.propono.blogclient
+org.rometools.propono.blogclient.atomprotocol
+org.rometools.propono.blogclient.metaweblog
+org.rometools.propono.utils
